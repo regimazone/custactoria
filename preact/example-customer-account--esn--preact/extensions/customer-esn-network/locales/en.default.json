@@ -1,0 +1,21 @@
+{
+  "esnCard": {
+    "heading": "My Network (ESN)",
+    "description": "Manage your customer connections using a HyperGraphQL-inspired social network. Each connection is represented as a node in a hypergraph structure.",
+    "addConnection": "Add connection",
+    "modalHeading": "Add New Connection",
+    "connectionName": {
+      "label": "Connection Name"
+    },
+    "connectionEmail": {
+      "label": "Email (optional)"
+    },
+    "relationType": {
+      "label": "Relationship Type (e.g., friend, colleague, family)"
+    },
+    "cancel": "Cancel",
+    "save": "Add Connection",
+    "noConnections": "No connections yet. Start building your network!",
+    "graphInfo": "Network Graph: {nodeCount} nodes, {edgeCount} edges"
+  }
+}

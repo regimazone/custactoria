@@ -1,0 +1,21 @@
+{
+  "esnCard": {
+    "heading": "Mon Réseau (ESN)",
+    "description": "Gérez vos connexions client à l'aide d'un réseau social inspiré de HyperGraphQL. Chaque connexion est représentée comme un nœud dans une structure d'hypergraphe.",
+    "addConnection": "Ajouter une connexion",
+    "modalHeading": "Ajouter une nouvelle connexion",
+    "connectionName": {
+      "label": "Nom de la connexion"
+    },
+    "connectionEmail": {
+      "label": "Email (optionnel)"
+    },
+    "relationType": {
+      "label": "Type de relation (ex: ami, collègue, famille)"
+    },
+    "cancel": "Annuler",
+    "save": "Ajouter la connexion",
+    "noConnections": "Aucune connexion pour le moment. Commencez à construire votre réseau!",
+    "graphInfo": "Graphe réseau: {nodeCount} nœuds, {edgeCount} arêtes"
+  }
+}
