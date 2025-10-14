@@ -4,7 +4,7 @@
 
 This implementation adds a new Customer Account UI extension that demonstrates concepts from **OpenCog** and **HyperGraphQL** to create an Extended Social Network (ESN) for customers within Shopify's customer account system.
 
-**Dual Interpretation**: Remarkably, the acronym "ESN" has a dual meaning in this implementation:
+**Dual Interpretation**: The acronym "ESN" has a dual meaning in this implementation:
 1. **Extended Social Network** - A graph-based representation of customer relationships
 2. **Echo State Network** - A reservoir computing framework where the social network exhibits computational properties similar to recurrent neural networks
 
@@ -34,7 +34,7 @@ Each example includes:
 1. **Hypergraph Structure**: Customer relationships are represented as nodes and edges
 2. **Knowledge Representation**: Each connection contains metadata about the relationship
 3. **Graph-based Relationships**: Multi-way relationships between entities
-4. **Reservoir Computing Connection**: OpenCog's dynamic AtomSpace shares conceptual similarities with Echo State Networks - both involve networks where patterns emerge from the interaction of many connected elements, supporting the dual ESN interpretation
+4. **Reservoir Computing Connection**: OpenCog's dynamic AtomSpace shares conceptual similarities with Echo State Networks. Both involve networks where patterns emerge from the interaction of many connected elements, supporting the dual ESN interpretation.
 
 ### HyperGraphQL Integration
 
@@ -55,7 +55,7 @@ The ESN allows customers to:
 
 ### ESN as Echo State Network (Reservoir Computing Interpretation)
 
-Interestingly, the ESN (Extended Social Network) can also be conceptualized as an **Echo State Network** (ESN) from the field of reservoir computing. This dual interpretation demonstrates how social network dynamics mirror computational neural networks.
+The ESN (Extended Social Network) can also be conceptualized as an **Echo State Network** (ESN) from the field of reservoir computing. This dual interpretation demonstrates how social network dynamics mirror computational neural networks.
 
 #### What is an Echo State Network?
 
@@ -125,7 +125,7 @@ This interpretation enables advanced features:
 
 #### Mathematical Foundation
 
-In traditional Echo State Networks:
+In traditional Echo State Networks (where `*` denotes matrix multiplication):
 ```
 x(t+1) = f(W_in * u(t) + W * x(t))
 y(t) = g(W_out * x(t))
@@ -385,6 +385,6 @@ This implementation successfully demonstrates how concepts from OpenCog and Hype
 - **Social Computing**: Graph-based representation of human relationships
 - **Reservoir Computing**: Neural network dynamics and temporal pattern processing
 
-This duality reveals deep connections between social structures and computational intelligence, suggesting that customer networks are not merely data structures but computational substrates capable of emergent information processing. The convergence of these concepts opens pathways for advanced AI-driven features while maintaining an intuitive social network interface.
+This duality reveals deep connections between social structures and computational intelligence. It suggests that customer networks are not merely data structures but computational substrates capable of emergent information processing. The convergence of these concepts opens pathways for advanced AI-driven features while maintaining an intuitive social network interface.
 
 The three implementations (React, JavaScript, and Preact) ensure developers can work with their preferred framework while maintaining the same core functionality and architecture, ready to evolve into sophisticated reservoir computing applications.
